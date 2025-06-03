@@ -1,13 +1,29 @@
 const Navbar = () => {
   return (
-    <nav className="bg-[#1a1a2f] px-6 py-4 flex justify-between items-center shadow-md">
-      <div className="text-2xl font-bold text-green-400">StakeClone</div>
-      <div className="space-x-4">
-        <button className="bg-green-600 px-4 py-2 rounded hover:bg-green-500">Sign In</button>
-        <button className="border border-green-600 px-4 py-2 rounded hover:bg-green-600">Register</button>
+    <nav className="w-full bg-appBlack h-[90px]">
+      <div className="flex items-center justify-between p-2 md:ml-20 md:mr-20">
+        <p className="text-3xl ">David Casino</p>
+        <div className="flex items-center">
+          <button className=" py-7 border-b-[2px] border-transparent hover:border-b-appBlue group   ">
+            <p className="text-[13px] text-textGrey border border-1 border-y-0 border-l-0 border-textGrey w-full px-4 group-hover:text-white transition-colors duration-200 cursor-pointer">
+              LOGIN
+            </p>
+          </button>
+          <button className="hidden md:inline-block py-7 border-b-[2px] border-transparent hover:border-b-appBlue group ">
+            <p className="text-[13px] border border-1 text-textGrey border-y-0 border-l-0 border-textGrey w-full px-4 group-hover:text-white transition-colors duration-200 cursor-pointer  ">
+              CREATE AN ACCOUNT
+            </p>
+          </button>
+          <button className="hover-white hidden md:inline-block py-7 border-b-[2px] border-transparent hover:border-b-appBlue group ">
+            <p className="px-4 text-[13px] text-textGrey group-hover:text-white transition-colors duration-200 cursor-pointer">CONTACT US</p>
+          </button>
+          <button className=" py-7 inline-block md:hidden hover-white py-7 border-b-[2px] border-transparent hover:border-b-appBlue group ">
+            <p className="text-[13px] text-textGrey  w-full px-4 group-hover:text-white transition-colors duration-200 cursor-pointer">SIGN UP</p>
+          </button>
+        </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

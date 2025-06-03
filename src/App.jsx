@@ -2,8 +2,8 @@ import Navbar from "./components/Navbar";
 import GameGrid from "./components/GameGrid";
 import ChatBox from "./components/ChatBox";
 import Home from "./pages/Home";
-
-function App() {
+ 
+function App() { 
   return (
     <div className="min-h-screen flex flex-col bg-appBlack">
       <Navbar />

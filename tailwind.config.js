@@ -9,7 +9,11 @@ export default {
       colors:{
         'appBlack':'#0E0E0E',
         'textGrey':'#9f9f9f',
-        'appBlue':'#008BD9'
+        'textGreyLight':'#777777',
+        'textBlue':'#058BDB',
+        'appBlue':'#008BD9',
+        'bgGreyDark':'#111111'
+
       }
     },
   },

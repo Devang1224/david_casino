@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <nav className="w-full bg-appBlack h-[90px]">
-      <div className="flex items-center justify-between p-2 md:ml-20 md:mr-20">
+      <div className="flex items-center justify-between p-2 md:mx-32">
         <p className="text-3xl ">David Casino</p>
         <div className="flex items-center">
           <button className=" py-7 border-b-[2px] border-transparent hover:border-b-appBlue group   ">

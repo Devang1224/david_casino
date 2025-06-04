@@ -28,4 +28,10 @@
     .hover-white {
       @apply hover:text-white transition-colors duration-200 cursor-pointer;
     }
+
+    .flex-center {
+      @apply flex items-center justify-center;
+    }
+    
+
 }
